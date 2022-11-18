@@ -1,6 +1,7 @@
 # 💫About Me :
 Currently, I am a freshman at the Institute of Post and Telecommunications Technology.
 I created myself 2 Arduino projects and got an award for it.
+Ngoài ra tôi cũng có  một dự án về OpenCV và một dự án về Speech Recogn.
 
 ## 🌐Socials
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/quyethanh.dvfb) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/thanhquyet) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@www.tiktok.com/@thanh_duyen_369) 
