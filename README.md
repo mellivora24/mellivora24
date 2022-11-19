@@ -1,7 +1,7 @@
 # 💫About Me :
 Currently, I am a freshman at the Institute of Post and Telecommunications Technology.
 I created myself 2 Arduino projects and got an award for it.
-Ngoài ra tôi cũng có  một dự án về OpenCV và một dự án về Speech Recogn.
+In addition, I also have a project on OpenCV and a project on Speech Recognition.
 
 ## 🌐 Contact me at:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/quyethanh.dvfb) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/thanhquyet) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@www.tiktok.com/@thanh_duyen_369) 
@@ -13,10 +13,10 @@ Ngoài ra tôi cũng có  một dự án về OpenCV và một dự án về Spe
 ![](https://github-readme-streak-stats.herokuapp.com/?user=thanhquyet24ptit&theme=radical&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=thanhquyet24ptit&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-### 🤣 Make today more interesting
+### 👉Quotes from other programmers:
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-### 😂Random Dev Meme
+### 😂Make today more interesting:
 <img src="https://random-memer.herokuapp.com/" width="512px"/>
 
 ---
