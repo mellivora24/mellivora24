@@ -16,7 +16,7 @@
 
 ### Framework mình dùng:
 <img src="https://github.com/opencv/opencv/wiki/logo/OpenCV_logo_no_text.png" width="36" height="36" alt="OpenCV">
-<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/yolo-colored.svg" width="36" height="36" alt="YOLO">
+<img src="https://avatars.githubusercontent.com/u/26833451?s=200&v=4" width="36" height="36" alt="YOLO">
 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="NodeJS">
 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored.svg" width="36" height="36" alt="Django">
 
