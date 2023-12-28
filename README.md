@@ -27,6 +27,7 @@
 <p align="left">
 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/arduino-colored.svg" width="45" height="45" alt="Arduino">
 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/raspberrypi-colored.svg" width="36" height="36" alt="Raspberry Pi">
+<img src="https://cxt.vn/upload/brands/thumbs/espressif-1652948946.png" width="36" height="36" alt="Raspberry Pi">
 
 <p align="center">
 <img src="https://img.shields.io/github/followers/thanhquyet24ptit?logo=github&style=for-the-badge&color=facc15&labelColor=000000">
