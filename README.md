@@ -1,18 +1,9 @@
 Profile Views: ![](https://komarev.com/ghpvc/?username=thanhquyet24ptit)
 
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Thanh
-=============================================================================================================================
-#I'm an IoT programmer
------------------
-
-* 🌍  I'm based in Ha Noi, Viet Nam
-* 🖥️  See my portfolio at [fghfghfgh](http://ghfghfgh)
-* ✉️  You can contact me at [fghgfh](mailto:fghgfh)
-* 🚀  I'm currently working on [fghfgh](http://fghfgh)
-* 🧠  I'm learning hgfhfgh
-* 🤝  I'm open to collaborating on fhfgh
-* ⚡  fghfgh
-
+Xin chào! [](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) Mình là Thành.
+----------
+# 📖 Mình đang học tại Học viện Công nghệ Bưu chính Viễn thông PTIT (HN)
+# 🗺️ Mình đến từ Tuyên Quang
 <a href="https://www.github.com/fh" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/github/followers/fh?logo=github&style=for-the-badge&color=facc15&labelColor=000000" /></a><a href="https://www.x.com/fhf" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/twitter/follow/fhf?logo=twitter&style=for-the-badge&color=facc15&labelColor=000000"
