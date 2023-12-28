@@ -28,7 +28,7 @@
 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/arduino-colored.svg" width="45" height="45" alt="Arduino">
 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/raspberrypi-colored.svg" width="36" height="36" alt="Raspberry Pi">
 <img src="https://gourmet-technology-crypto.jp/wp-content/uploads/2018/10/logo.png.webp" width="36" height="36" alt="Raspberry Pi">
-<img src="https://assets.stickpng.com/images/60895ec7d598a5000448ea97.png" width="36" height="36" alt="NVIDIA">
+<img src="https://assets.nvidiagrid.net/ngc/logos/Jetson.png" width="36" height="36" alt="NVIDIA">
 
 <p align="center">
 <img src="https://img.shields.io/github/followers/thanhquyet24ptit?logo=github&style=for-the-badge&color=facc15&labelColor=000000">
