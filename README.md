@@ -3,10 +3,13 @@ Profile Views: ![](https://komarev.com/ghpvc/?username=thanhquyet24ptit)
 # Xin chào! [](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) Mình là Thành.
 * 📖 Mình đang học tại Học viện Công nghệ Bưu chính Viễn thông PTIT (HN)
 * 🗺️ Mình đến từ Tuyên Quang
-<a href="https://www.github.com/fh" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/github/followers/fh?logo=github&style=for-the-badge&color=facc15&labelColor=000000" /></a><a href="https://www.x.com/fhf" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/twitter/follow/fhf?logo=twitter&style=for-the-badge&color=facc15&labelColor=000000"
-/></a>
+<br>
+<a href="https://github.com/thanhquyet24ptit" target="_blank" rel="noreferrer">
+  <img src="https://img.shields.io/github/followers/fh?logo=github&style=for-the-badge&color=facc15&labelColor=000000" />
+</a>g
+<a href="https://www.x.com/fhf" target="_blank" rel="noreferrer">
+  <img src="https://img.shields.io/twitter/follow/fhf?logo=twitter&style=for-the-badge&color=facc15&labelColor=000000"/>
+</a>
 ### Skills
 
 <p align="left">
