@@ -1,5 +1,5 @@
 <a href="https://github.com/thanhquyet24ptit" target="_blank" rel="noreferrer">
-  <img src="https://img.shields.io/github/followers/fh?logo=github&style=for-the-badge&color=facc15&labelColor=000000" />
+  <img src="https://img.shields.io/github/followers/thanhquyet24ptit?logo=github&style=for-the-badge&color=facc15&labelColor=000000" />
 </a>
 <br>
 ![](https://komarev.com/ghpvc/?username=thanhquyet24ptit)
