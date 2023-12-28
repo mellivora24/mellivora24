@@ -29,7 +29,7 @@
 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/raspberrypi-colored.svg" width="36" height="36" alt="Raspberry Pi">
 
 <b>My GitHub Stats</b>
-
+<p align="center">
 <a href="http://www.github.com/thanhquyet24ptit"><img src="https://github-readme-stats.vercel.app/api?username=fh&show_icons=true&hide=&count_private=true&title_color=facc15&text_color=ef4444&icon_color=facc15&bg_color=000000&hide_border=true&show_icons=true" alt="fh's GitHub stats" /></a>
 
 <a href="http://www.github.com/thanhquyet24ptit"><img src="https://github-readme-streak-stats.herokuapp.com/?user=fh&stroke=ef4444&background=000000&ring=facc15&fire=facc15&currStreakNum=ef4444&currStreakLabel=facc15&sideNums=ef4444&sideLabels=ef4444&dates=ef4444&hide_border=true" /></a>
@@ -38,7 +38,5 @@
 
 <a href="https://github.com/thanhquyet24ptit" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fh&langs_count=10&title_color=facc15&text_color=ef4444&icon_color=facc15&bg_color=000000&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 
-<b>Top Repositories</b>
-
-<div width="100%" align="center"><a href="https://github.com/thanhquyet24ptit" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=fh&repo=ghfghffgh&title_color=facc15&text_color=ef4444&icon_color=facc15&bg_color=000000&hide_border=true&locale=en" /></a></div><br /><br /><br /><br /><br /><br /><br />
+<p align="right">
 <img src="https://img.shields.io/github/followers/thanhquyet24ptit?logo=github&style=for-the-badge&color=facc15&labelColor=000000">
