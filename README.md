@@ -14,9 +14,6 @@
 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5">
 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3">
   
-<p align="center">
-<a href="https://github.com/thanhquyet24ptit" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fh&langs_count=10&title_color=facc15&text_color=ef4444&icon_color=facc15&bg_color=000000&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
-  
 ### Framework mình dùng:
 <img src="https://github.com/opencv/opencv/wiki/logo/OpenCV_logo_no_text.png" width="36" height="36" alt="OpenCV"><img src="https://avatars.githubusercontent.com/u/26833451?s=200&v=4" width="36" height="36" alt="YOLO"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="NodeJS"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored.svg" width="36" height="36" alt="Django">
 
@@ -30,6 +27,6 @@
 <p align="left">
 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/arduino-colored.svg" width="45" height="45" alt="Arduino">
 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/raspberrypi-colored.svg" width="36" height="36" alt="Raspberry Pi">
-  
-<p align="right">
+
+<p align="center">Follow mình nhé!</p>
 <img src="https://img.shields.io/github/followers/thanhquyet24ptit?logo=github&style=for-the-badge&color=facc15&labelColor=000000">
