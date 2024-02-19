@@ -32,4 +32,4 @@
 
 <p align="center">"Mọi vật trên Trái Đất có thể kết nối với nhau và trở nên thông minh hơn dưới bàn tay con người 👐!"</p>
 <p align="center">
-<img src="https://img.shields.io/github/followers/thanhquyet24ptit?logo=github&style=for-the-badge&color=facc15&labelColor=000000">
+<img src="https://img.shields.io/github/followers/mellivora24?logo=github&style=for-the-badge&color=facc15&labelColor=000000">
