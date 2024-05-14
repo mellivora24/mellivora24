@@ -1,11 +1,11 @@
-<img src="https://komarev.com/ghpvc/?username=thanhquyet24ptit">
-
 # <img width="36" height="36" src="https://private-user-images.githubusercontent.com/74038190/243078655-47eb2734-addb-46da-b4dd-5e1616cd3853.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTU2NzM4NTgsIm5iZiI6MTcxNTY3MzU1OCwicGF0aCI6Ii83NDAzODE5MC8yNDMwNzg2NTUtNDdlYjI3MzQtYWRkYi00NmRhLWI0ZGQtNWUxNjE2Y2QzODUzLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTE0VDA3NTkxOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA5MGZmYjAwYWZhZGU5YmZmNzI2MWI1OGIzMWEyYzJlMjc4OTA5YTU5NGVmYjFkNjkxMmJhNGVlMWYzMWU3ZjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.YkKt2OQLMtMs5Ude1diIQ_WF6cPWR2clL7PTsBrszns"> Xin chào!  Mình là Thành.
-<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif">
+<img src="https://komarev.com/ghpvc/?username=thanhquyet24ptit">
 
 * 📖 Mình đang học tại Học viện Công nghệ Bưu chính Viễn thông PTIT (HN)
 * 🗺️ Mình đến từ Tuyên Quang
 * 🚩 Nếu tham khảo một project trong này, vui lòng để lại cho mình 1⭐ và 1 follow nhé!
+
+<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif">
 
 ### Ngôn ngữ lập trình mình dùng:
 <p align="left">
