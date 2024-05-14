@@ -29,7 +29,8 @@
 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/raspberrypi-colored.svg" width="36" height="36" alt="Raspberry Pi">
 <img src="https://gourmet-technology-crypto.jp/wp-content/uploads/2018/10/logo.png.webp" width="36" height="36" alt="Raspberry Pi">
 <img src="https://assets.nvidiagrid.net/ngc/logos/Jetson.png" width="36" height="36" alt="NVIDIA">
-
+  
+<p align="center">https://chinsun9.github.io/2022/01/18/github-loading-gif/#google_vignette</p>
 <p align="center">"Mọi vật trên Trái Đất có thể kết nối với nhau và trở nên thông minh hơn dưới bàn tay con người 👐!"</p>
 <p align="center">
 <img src="https://img.shields.io/github/followers/mellivora24?logo=github&style=for-the-badge&color=facc15&labelColor=000000">
