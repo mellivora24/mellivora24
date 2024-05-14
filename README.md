@@ -1,6 +1,6 @@
 <img src="https://komarev.com/ghpvc/?username=thanhquyet24ptit">
 
-# Xin chào!  Mình là Thành. <img src="https://user-images.githubusercontent.com/74038190/216120986-f2752ca9-fe82-4aa3-befe-0a58db010d85.png">
+# Xin chào!  Mình là Thành. <img width="36" height="36" src="https://user-images.githubusercontent.com/74038190/216120986-f2752ca9-fe82-4aa3-befe-0a58db010d85.png">
 * 📖 Mình đang học tại Học viện Công nghệ Bưu chính Viễn thông PTIT (HN)
 * 🗺️ Mình đến từ Tuyên Quang
 * 🚩 Nếu tham khảo một project trong này, vui lòng để lại cho mình 1⭐ và 1 follow nhé!
