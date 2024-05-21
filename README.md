@@ -1,8 +1,8 @@
 # <img width="36" height="36" src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif"> Xin chào!  Mình là Thành.
 <img src="https://komarev.com/ghpvc/?username=thanhquyet24ptit">
 
-* 📖 Mình đang học tại Học viện Công nghệ Bưu chính Viễn thông PTIT (HN)
-* 🗺️ Mình đến từ Tuyên Quang
+* 🏫 Mình là một cổ đông của PTIT :))
+* 👉 Làm đồ án môn nhúng + IoT, hoặc tư vấn sản phẩm dự thi KHKT [nhấn vào đây!](https://www.facebook.com/mellivora24)
 * 🚩 Nếu tham khảo một project trong này, vui lòng để lại cho mình 1⭐ và 1 follow nhé!
 
 <img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif">
