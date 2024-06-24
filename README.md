@@ -4,9 +4,7 @@
 * 🏫 Mình là một cổ đông năm 2 của PTIT :))
 * 👉 Làm đồ án môn nhúng + IoT, hoặc tư vấn sản phẩm dự thi KHKT [nhấn vào đây!](https://www.facebook.com/mellivora24)
 * 🚩 Nếu tham khảo một project trong này, vui lòng để lại cho mình 1⭐ và 1 follow nhé!
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
-
+#
 ### Ngôn ngữ lập trình mình dùng:
 <p align="left">
 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" width="45" height="45" alt="C">
@@ -32,7 +30,10 @@
 <img src="https://gourmet-technology-crypto.jp/wp-content/uploads/2018/10/logo.png.webp" width="36" height="36" alt="Raspberry Pi">
 <img src="https://assets.nvidiagrid.net/ngc/logos/Jetson.png" width="36" height="36" alt="NVIDIA">
   
-<p align="center"><img src="https://github.githubassets.com/images/mona-loading-dark.gif" width="45" height="45" alt="MySQL"></p>
+<p align="center">
+  <img src="https://github.com/mellivora24/mellivora24/blob/main/octocat-1719253327080.png" width="400" height="400"> <img src="https://github.githubassets.com/images/mona-loading-dark.gif" width="100" height="100">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
+</p>
 <p align="center">"Mọi vật trên Trái Đất có thể kết nối với nhau và trở nên thông minh hơn dưới bàn tay con người 👐!"</p>
 <p align="center">
 <img src="https://img.shields.io/github/followers/mellivora24?logo=github&style=for-the-badge&color=facc15&labelColor=000000">
