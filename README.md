@@ -4,31 +4,6 @@
 * 🏫 Mình là một cổ đông năm 3 của PTIT :))
 * 👉 Làm đồ án môn nhúng + IoT, hoặc tư vấn sản phẩm dự thi KHKT [nhấn vào đây!](https://www.facebook.com/mellivora24)
 * 🚩 Nếu tham khảo một project trong này, vui lòng để lại cho mình 1⭐ và 1 follow nhé!
-#
-### Ngôn ngữ lập trình mình dùng:
-<p align="left">
-<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" width="45" height="45" alt="C">
-<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="45" height="45" alt="C++">
-<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="45" height="45" alt="JavaScript">
-<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="45" height="45" alt="Python">
-<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5">
-<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3">
-  
-### Framework và thư viện mình dùng:
-<img src="https://github.com/opencv/opencv/wiki/logo/OpenCV_logo_no_text.png" width="36" height="36" alt="OpenCV"><img src="https://avatars.githubusercontent.com/u/26833451?s=200&v=4" width="36" height="36" alt="YOLO"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="NodeJS"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored.svg" width="36" height="36" alt="Django"><img src="https://bizweb.dktcdn.net/100/045/105/articles/blynk-logo.png" width="36" height="36" alt="Blynk">
-
-### Cơ sở dữ liệu mình dùng:
-<p align="left">
-<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg" width="45" height="45" alt="FireBase">
-<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="45" height="45" alt="MongoDB">
-<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="45" height="45" alt="MySQL">
-
-### Phần cứng mình sử dụng:
-<p align="left">
-<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/arduino-colored.svg" width="45" height="45" alt="Arduino">
-<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/raspberrypi-colored.svg" width="36" height="36" alt="Raspberry Pi">
-<img src="https://gourmet-technology-crypto.jp/wp-content/uploads/2018/10/logo.png.webp" width="36" height="36" alt="Raspberry Pi">
-<img src="https://assets.nvidiagrid.net/ngc/logos/Jetson.png" width="36" height="36" alt="NVIDIA">
   
 <p align="center">
   <img src="https://github.com/mellivora24/mellivora24/blob/main/octocat-1719253327080.png" width="400" height="400"> <img src="https://github.githubassets.com/images/mona-loading-dark.gif" width="100" height="100">
