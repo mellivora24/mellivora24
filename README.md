@@ -4,7 +4,7 @@
 * 🏫 Mình là một cổ đông năm 3 của PTIT :))
 * 👉 Làm đồ án môn nhúng + IoT, hoặc tư vấn sản phẩm dự thi KHKT [nhấn vào đây!](https://www.facebook.com/mellivora24)
 * 🚩 Nếu tham khảo một project trong này, vui lòng để lại cho mình 1⭐ và 1 follow nhé!
-  
+
 <p align="center">
   <img src="https://github.com/mellivora24/mellivora24/blob/main/octocat-1719253327080.png" width="400" height="400"> <img src="https://github.githubassets.com/images/mona-loading-dark.gif" width="100" height="100">
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
@@ -12,3 +12,7 @@
 <p align="center">"Mọi vật trên Trái Đất có thể kết nối với nhau và trở nên thông minh hơn dưới bàn tay con người 👐!"</p>
 <p align="center">
 <img src="https://img.shields.io/github/followers/mellivora24?logo=github&style=for-the-badge&color=facc15&labelColor=000000">
+
+<p align="right">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mellivora24&hide_progress=true">
+</p>
