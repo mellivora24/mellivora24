@@ -1,5 +1,10 @@
 # <img width="36" height="36" src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif"> Xin chào!  Mình là Thành.
-<img src="https://komarev.com/ghpvc/?username=thanhquyet24ptit">
+
+![](https://img.shields.io/badge/dynamic/json?logo=github&label=GitHub%20Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/mellivora24)
+![](https://img.shields.io/badge/dynamic/json?logo=github&label=GitHub%20Forks&style=for-the-badge&query=%24.forks&url=https://api.github-star-counter.workers.dev/user/mellivora24)
+
+![](https://komarev.com/ghpvc/?username=thanhquyet24ptit)
+
 
 * 🏫 Mình là một cổ đông năm 3 của PTIT :))
 * 👉 Làm đồ án môn nhúng + IoT, hoặc tư vấn sản phẩm dự thi KHKT [nhấn vào đây!](https://www.facebook.com/mellivora24)
