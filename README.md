@@ -5,9 +5,13 @@
 ![](https://img.shields.io/badge/dynamic/json?logo=github&label=GitHub%20Forks&query=%24.forks&url=https://api.github-star-counter.workers.dev/user/mellivora24)
 ![](https://komarev.com/ghpvc/?username=thanhquyet24ptit)
 
-* 🏫 Mình là một cổ đông năm 3 của PTIT :))
-* 👉 Làm đồ án môn nhúng + IoT, hoặc tư vấn sản phẩm dự thi KHKT [nhấn vào đây!](https://www.facebook.com/mellivora24)
-* 🚩 Nếu tham khảo một project trong này, vui lòng để lại cho mình 1⭐ và 1 follow nhé!
+## Marketing chính mình
+
+## Vậy mình có gì?
+1. Những kỹ năng
+2. Những dịch vụ
+
+## Đánh giá và phản hồi từ khách hàng của mình
 
 <p align="center">
   <img src="https://github.com/mellivora24/mellivora24/blob/main/octocat-1719253327080.png" width="400" height="400"> <img src="https://github.githubassets.com/images/mona-loading-dark.gif" width="100" height="100">
