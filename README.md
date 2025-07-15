@@ -6,6 +6,7 @@
 ![](https://komarev.com/ghpvc/?username=thanhquyet24ptit)
 
 ## Marketing chính mình
+Hiện tại mình đang là sinh viên năm 4 ngành CNTT của PTIT
 
 ## Vậy mình có gì?
 1. Những kỹ năng
