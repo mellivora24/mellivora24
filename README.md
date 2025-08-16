@@ -6,11 +6,15 @@
 ![](https://komarev.com/ghpvc/?username=thanhquyet24ptit)
 
 ## Marketing chính mình
-Hiện tại mình đang là sinh viên năm 4 ngành CNTT của PTIT
+Hãy gọi mình là Thành - IoT (Lửng IoT cũng được =]]), bời vì:
+Mình là một Lập trình viên với chuyên môn về phát triển các ứng dụng IoT. Với 3 năm kinh nghiệm, mình có khả năng xây dựng các hệ thống IoT hoàn chỉnh, từ xây dựng PCB & lập trình firmware cho tới phát triển ứng dụng IoT đa nền tảng.
 
-## Vậy mình có gì?
-1. Những kỹ năng
-2. Những dịch vụ
+## Vậy mình có thể giúp bạn những gì?
+1. Mình nhận thiết kế và gia công PCB (1-2 lớp)
+2. Mình nhận làm đồ án môn học IoT (hoặc nhúng). Ngoài ra các đồ án liên quan tới Computer Vision, APP, WEB mình cũng sẽ nhận.
+
+## Nếu bạn là phụ huynh?
+Mình cung cấp dịch vụ dạy học STEM, tư vấn và hỗ trợ thiết kế sản phẩm KHKT
 
 ## Đánh giá và phản hồi từ khách hàng của mình
 
