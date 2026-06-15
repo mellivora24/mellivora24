@@ -1,0 +1,28 @@
+:root {
+  --color-bg: #05050a;
+  --color-bg-soft: #0b0b14;
+  --color-surface: rgba(255, 255, 255, 0.03);
+  --color-border: rgba(255, 215, 0, 0.15);
+
+  --color-primary: #ffd700;
+  --color-primary-soft: #ffe98a;
+  --color-accent: #2563eb;
+  --color-accent-soft: #60a5fa;
+
+  --color-text: #f5f5f0;
+  --color-text-muted: #9ca3af;
+
+  --shadow-glow: 0 0 24px rgba(255, 215, 0, 0.25);
+  --shadow-glow-blue: 0 0 24px rgba(37, 99, 235, 0.25);
+  --color-primary-glow: rgba(255, 215, 0, 0.35);
+  --color-accent-glow: rgba(37, 99, 235, 0.15);
+
+  --font-heading: "Poppins", system-ui, "Segoe UI", sans-serif;
+  --font-body: system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+
+  --nav-height: 72px;
+  --container-width: 1200px;
+  --radius: 12px;
+  --transition: 0.25s ease;
+}
