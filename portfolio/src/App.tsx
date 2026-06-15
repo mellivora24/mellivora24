@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 
-import "@/App.css";
 import { DEFAULT_TITLE, HIDDEN_TITLE } from "@/shared/constants/title";
 
 function App() {
