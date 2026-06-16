@@ -1,35 +1,35 @@
-name: Auto commit
+# name: Auto commit
 
-on:
-  schedule:
-    - cron: '0 8 * * *'
-    - cron: '0 18 * * *'
+# on:
+#   schedule:
+#     - cron: '0 8 * * *'
+#     - cron: '0 18 * * *'
 
-  workflow_dispatch:
+#   workflow_dispatch:
 
-jobs:
-  auto_commit:
-    name: 'Auto push a commit to my repo'
-    runs-on: macos-latest
-    steps:
-      - uses: actions/checkout@v4
+# jobs:
+#   auto_commit:
+#     name: 'Auto push a commit to my repo'
+#     runs-on: macos-latest
+#     steps:
+#       - uses: actions/checkout@v4
 
-      - name: Create sample file with just timestamp
-        run: date +%s >> report.txt
+#       - name: Create sample file with just timestamp
+#         run: date +%s >> report.txt
 
-      - name: Check for changes
-        run: |
-          git add report.txt
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
+#       - name: Check for changes
+#         run: |
+#           git add report.txt
+#           if git diff --cached --quiet; then
+#             echo "No changes to commit"
+#             exit 0
+#           fi
 
-      - name: Commit and push
-        run: |
-          git config --global user.name 'mellivora24'
-          git config --global user.email 'thanhmq.b22cn792@stu.ptit.edu.vn'
-          git commit -m "Automated update profile"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#       - name: Commit and push
+#         run: |
+#           git config --global user.name 'mellivora24'
+#           git config --global user.email 'thanhmq.b22cn792@stu.ptit.edu.vn'
+#           git commit -m "Automated update profile"
+#           git push
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

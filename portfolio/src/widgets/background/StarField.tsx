@@ -26,6 +26,35 @@ export default function StarField() {
     renderer.setSize(window.innerWidth, window.innerHeight);
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
+    const createGlowTexture = () => {
+      const size = 64;
+      const canvasEl = document.createElement("canvas");
+      canvasEl.width = size;
+      canvasEl.height = size;
+      const ctx = canvasEl.getContext("2d")!;
+
+      const gradient = ctx.createRadialGradient(
+        size / 2,
+        size / 2,
+        0,
+        size / 2,
+        size / 2,
+        size / 2,
+      );
+      gradient.addColorStop(0, "rgba(255,255,255,1)");
+      gradient.addColorStop(0.2, "rgba(255,255,255,0.9)");
+      gradient.addColorStop(0.5, "rgba(255,255,255,0.3)");
+      gradient.addColorStop(1, "rgba(255,255,255,0)");
+
+      ctx.fillStyle = gradient;
+      ctx.fillRect(0, 0, size, size);
+
+      const texture = new THREE.CanvasTexture(canvasEl);
+      texture.needsUpdate = true;
+      return texture;
+    };
+
+    const glowTexture = createGlowTexture();
     const layers: THREE.Points[] = [];
 
     const createStarLayer = (
@@ -49,9 +78,11 @@ export default function StarField() {
       const material = new THREE.PointsMaterial({
         color,
         size,
+        map: glowTexture,
+        alphaMap: glowTexture,
         sizeAttenuation: true,
         transparent: true,
-        opacity: 0.7,
+        opacity: 0.9,
         depthWrite: false,
         blending: THREE.AdditiveBlending,
       });
@@ -62,8 +93,8 @@ export default function StarField() {
       return points;
     };
 
-    createStarLayer(3500, 400, 0.6, 0xffffff);
-    createStarLayer(900, 350, 1.1, 0xffd700);
+    createStarLayer(1200, 400, 1.4, 0xffffff);
+    createStarLayer(300, 350, 2.2, 0xffd700);
 
     const mouse = { x: 0, y: 0 };
     const targetRotation = { x: 0, y: 0 };
@@ -111,6 +142,7 @@ export default function StarField() {
         layer.geometry.dispose();
         (layer.material as THREE.Material).dispose();
       });
+      glowTexture.dispose();
       renderer.dispose();
     };
   }, []);
