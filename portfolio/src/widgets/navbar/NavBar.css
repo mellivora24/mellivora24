@@ -195,6 +195,13 @@
   transition: width 120ms linear;
 }
 
+.text-glow {
+  align-self: left;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-shadow: 0 0 4px color-mix(in srgb, var(--color-primary) 60%, transparent);
+}
+
 @media (max-width: 768px) {
   .nav-bar__toggle {
     display: flex;

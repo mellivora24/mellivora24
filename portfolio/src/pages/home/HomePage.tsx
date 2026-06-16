@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 
 import "@/pages/home/HomePage.css";
 import profileCard from "@/assets/images/profile-card.png";
+import { CustomButton } from "@shared/components/Button";
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -20,11 +21,15 @@ export default function HomePage() {
             />
           </h1>
           <h2>{t("about_page.description")}</h2>
-          <a href="contacts" className="custom-button-wrapper">
-            <button className="custom-button">
-              {t("about_page.contactButton")}
-            </button>
-          </a>
+          <CustomButton
+            variant="primary"
+            size="lg"
+            fullWidth={false}
+            onClick={() => (window.location.href = "contacts")}
+            style={{ maxWidth: "200px" }}
+          >
+            {t("about_page.contactButton")}
+          </CustomButton>
         </div>
         <div className="profile-card">
           <img src={profileCard} alt="Profile Card" />
