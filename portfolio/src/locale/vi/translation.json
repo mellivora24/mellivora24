@@ -8,7 +8,7 @@
 
     "about_page": {
         "greeting": "Xin chào, mình là Thành",
-        "description": "Mô tả đang được cập nhật",
-        "contactButton": "Liên hệ tôi"
+        "description": "Hiện tại, mình đang là sinh viên năm cuối ngành Công nghệ thông tin tại Học viện Công nghệ Bưu chính Viễn thông. Mình đam mê với các sản phẩm / giải pháp DIY và với IoT nói chung, được triển khai các dự án IoT từ phần cứng với phần mềm là một niềm vui đối với mình.",
+        "moreAboutMeButton": "Tìm hiểu thêm"
     }
 }

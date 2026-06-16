@@ -8,7 +8,7 @@
 
     "about_page": {
         "greeting": "Hi, I'm Thành",
-        "description": "Pending description",
-        "contactButton": "Contact Me"
+        "description": "Currently, I'm a final-year student majoring in IT at Posts and Telecommunications Institute of Technology. I'm passionate about DIY products/solutions and IoT in general, implementing IoT projects from hardware to software is a joy for me.",
+        "moreAboutMeButton": "More information"
     }
 }

@@ -25,10 +25,10 @@ export default function HomePage() {
             variant="primary"
             size="lg"
             fullWidth={false}
-            onClick={() => (window.location.href = "contacts")}
+            onClick={() => (window.location.href = "about")}
             style={{ maxWidth: "200px" }}
           >
-            {t("about_page.contactButton")}
+            {t("about_page.moreAboutMeButton")}
           </CustomButton>
         </div>
         <div className="profile-card">
