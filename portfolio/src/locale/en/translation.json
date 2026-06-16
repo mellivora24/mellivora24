@@ -4,5 +4,11 @@
     "skills": "Skills",
     "projects": "Projects",
     "services": "Services",
-    "contact": "Contact"
+    "contact": "Contact",
+
+    "about_page": {
+        "greeting": "Hi, I'm Thành",
+        "description": "Pending description",
+        "contactButton": "Contact Me"
+    }
 }

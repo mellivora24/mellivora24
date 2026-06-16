@@ -20,16 +20,20 @@ export default function NavBar() {
   const { t, i18n } = useTranslation();
 
   useEffect(() => {
-    const onScroll = () => {
-      setScrolled(window.scrollY > 16);
+    const scrollEl = document.querySelector(".main-content") as HTMLElement | null;
+    if (!scrollEl) return;
 
-      const { scrollHeight, clientHeight } = document.documentElement;
+    const onScroll = () => {
+      setScrolled(scrollEl.scrollTop > 16);
+
+      const { scrollHeight, clientHeight, scrollTop } = scrollEl;
       const max = scrollHeight - clientHeight;
-      setProgress(max > 0 ? Math.min(100, (window.scrollY / max) * 100) : 0);
+      setProgress(max > 0 ? Math.min(100, (scrollTop / max) * 100) : 0);
     };
+
     onScroll();
-    window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
+    scrollEl.addEventListener("scroll", onScroll);
+    return () => scrollEl.removeEventListener("scroll", onScroll);
   }, []);
 
   const changeLanguage = (lng: string) => {

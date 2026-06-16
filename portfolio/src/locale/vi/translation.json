@@ -4,5 +4,11 @@
     "skills": "Kỹ năng",
     "projects": "Dự án",
     "services": "Dịch vụ",
-    "contact": "Liên hệ"
+    "contact": "Liên hệ",
+
+    "about_page": {
+        "greeting": "Xin chào, mình là Thành",
+        "description": "Mô tả đang được cập nhật",
+        "contactButton": "Liên hệ tôi"
+    }
 }
