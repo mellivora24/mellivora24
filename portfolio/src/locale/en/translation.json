@@ -1,14 +1,108 @@
 {
-    "home": "Home",
-    "about": "About",
-    "skills": "Skills",
-    "projects": "Projects",
-    "services": "Services",
-    "contact": "Contact",
+  "home": "Home",
+  "about": "About",
+  "skills": "Skills",
+  "projects": "Projects",
+  "services": "Services",
+  "contact": "Contact",
 
-    "about_page": {
-        "greeting": "Hi, I'm Thành",
-        "description": "Currently, I'm a final-year student majoring in IT at Posts and Telecommunications Institute of Technology. I'm passionate about DIY products/solutions and IoT in general, implementing IoT projects from hardware to software is a joy for me.",
-        "moreAboutMeButton": "More information"
-    }
+  "home_page": {
+    "greeting": "Hi, I'm Thành",
+    "description": "Currently, I'm a final-year student majoring in IT at Posts and Telecommunications Institute of Technology. I'm passionate about DIY products/solutions and IoT in general, implementing IoT projects from hardware to software is a joy for me.",
+    "moreAboutMeButton": "More information"
+  },
+
+  "about_page": {
+    "hero": {
+      "title": "About Me"
+    },
+    "image": {
+      "caption": "This is me, haha"
+    },
+    "bio": [
+      "Glad you are here! So, my name is Thanh (full name is Ma Quyet Thanh). Currently, I'm a final-year student majoring in IT at the Posts and Telecommunications Institute of Technology (PTIT).",
+      "I started learning about hardware and embedded systems back in 2020 (just with Arduino and VEX IQ kits), then I moved to college and had more opportunities to work on hardware and IoT projects (although I major in IT, I have a strong passion for hardware and IoT).",
+      "For me, IoT is not just a field to learn but a playground: putting hardware together with software to get data running from tiny MCUs up to the user interface and seeing everything working smoothly is the best feeling.",
+      "I also have a passion for DIY products and solutions. I enjoy building things that not only involve hardware but also integrate AI, mobile apps, and web interfaces to make them more useful and fun to use.",
+      "In the short term, I aim to become an Fullstack Developer in the field of Embedded & IoT. Moving forward, I plan to specialize in AUTOSAR and automotive software (or even robotics - it's depending on the opportunities that come my way)."
+    ],
+    "badges": ["IoT Systems & DIY", "AI & Software", "STEM Education", "Robotics", "Automotive"],
+    "journey": {
+      "title": "My Journey",
+      "subtitle": "The milestones and projects that got me here.",
+      "legendEducation": "Education",
+      "legendProject": "Experience",
+
+      "timeline": {
+        "see_more": "See more",
+        "education": {
+          "high_school": {
+            "period": "2019 - 2022",
+            "title": "🏫 High School",
+            "organization": "Tuyen Quang Ethnic Boarding High School",
+            "description": "Member of the STEM Robotics club, started learning Arduino during summer of 10th grade and later worked with VEX IQ robotics, which was the beginning of my passion for hardware and IoT."
+          },
+          "ptit": {
+            "period": "2022 - Present",
+            "title": "💼 Information Technology",
+            "organization": "Posts and Telecommunications Institute of Technology (PTIT)",
+            "description": "Final-year IT student, focusing on information systems design and distributed systems. Alongside that, I spend time learning more about electronics and telecommunications in embedded systems."
+          }
+        },
+
+        "experience": {
+          "kidscode": {
+            "period": "2023 - 2024",
+            "title": "STEM Teacher + Web Developer",
+            "organization": "KidsCode Education JSC",
+            "description": "Teaching basic programming and robotics to students at the center, involved in curriculum development and organizing extracurricular activities to foster interest in STEM through hands-on projects and interactive lessons. Same time, I also participated in developing and maintaining the center's e-commerce website on the Sapo platform using Liquid."
+          },
+          "partime_teacher": {
+            "period": "2023 - 2025",
+            "title": "Part-time Teacher",
+            "organization": "By myself",
+            "description": "Teaching programming (for ViSEF) and robotics (for competitions) to students in my free time. I also working as a mentor in the STEM club of some high schools like: TH School, Dan Phuong High School, etc."
+          },
+          "stemvn": {
+            "period": "2024 - 2025",
+            "title": "Software Developer",
+            "organization": "STEMVN Technology Development Co., Ltd",
+            "description": "Developing and maintaining software projects related to STEM educational robots and LAB equipment. Developing and maintaining the company's e-commerce website on the Sapo platform using Liquid. Developing data crawling tools and workflow automation to improve the company's operational efficiency."
+          },
+          "freelancer": {
+            "period": "2025 - present",
+            "title": "Freelancer",
+            "organization": "By myself",
+            "description": "I am currently working as a freelancer, providing software development and IoT solutions. I also offer services in 3D design and printing, PCB design and manufacturing, CNC machining, and other DIY and IoT projects for clients. During this time, I am also learning more about other knowledge such as STM32 (low-level programming), embedded toolchains (ARM GCC, GDB, OpenOCD, ESP-IDF), AUTOSAR, etc... to prepare for new opportunities in the future."
+          }
+        }
+      }
+    },
+    "hobbies": { "title": "My free time activities" },
+    "cta": {
+      "title": "Want to see what I'm building or work together?",
+      "cv": "Download CV",
+      "contact": "Get in touch"
+    },
+    "seeMyProjects": "See my projects",
+    
+    "techStack": {
+        "title": "Tech Stack",
+        "subtitle": "Technologies I work with",
+        "categories": {
+          "frontend": "User Interface",
+          "backend": "Backend applications",
+          "database": "Database",
+          "devops": "DevOps",
+          "tools": "Design & Tools",
+          "embedded": "Embedded",
+          "mobile": "Mobile",
+          "desktop": "Desktop",
+          "board": "Boards",
+          "protocol": "Protocols",
+          "computer_vision": "Computer Vision",
+          "other": "Other"
+        }
+      }
+  }
 }

@@ -24,6 +24,7 @@
     /* Aliases */
     "paths": {
       "@/*": ["./src/*"],
+      "@type/*": ["./src/shared/types/*"],
       "@shared/*": ["./src/shared/*"]
     }
   },

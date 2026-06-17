@@ -12,7 +12,7 @@ export default function HomePage() {
       <div className="about-container">
         <div className="about-text">
           <h1 className="shiny-text">
-            {t("about_page.greeting")}
+            {t("home_page.greeting")}
             <img
               src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Victory%20Hand%20Medium-Light%20Skin%20Tone.png"
               alt="Victory Hand Medium-Light Skin Tone"
@@ -20,7 +20,7 @@ export default function HomePage() {
               height="60"
             />
           </h1>
-          <h2>{t("about_page.description")}</h2>
+          <h2>{t("home_page.description")}</h2>
           <CustomButton
             variant="primary"
             size="lg"
@@ -28,7 +28,7 @@ export default function HomePage() {
             onClick={() => (window.location.href = "about")}
             style={{ maxWidth: "200px" }}
           >
-            {t("about_page.moreAboutMeButton")}
+            {t("home_page.moreAboutMeButton")}
           </CustomButton>
         </div>
         <div className="profile-card">

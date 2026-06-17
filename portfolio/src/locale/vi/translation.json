@@ -1,14 +1,113 @@
 {
-    "home": "Trang chủ",
-    "about": "Giới thiệu",
-    "skills": "Kỹ năng",
-    "projects": "Dự án",
-    "services": "Dịch vụ",
-    "contact": "Liên hệ",
+  "home": "Trang chủ",
+  "about": "Giới thiệu",
+  "skills": "Kỹ năng",
+  "projects": "Dự án",
+  "services": "Dịch vụ",
+  "contact": "Liên hệ",
 
-    "about_page": {
-        "greeting": "Xin chào, mình là Thành",
-        "description": "Hiện tại, mình đang là sinh viên năm cuối ngành Công nghệ thông tin tại Học viện Công nghệ Bưu chính Viễn thông. Mình đam mê với các sản phẩm / giải pháp DIY và với IoT nói chung, được triển khai các dự án IoT từ phần cứng với phần mềm là một niềm vui đối với mình.",
-        "moreAboutMeButton": "Tìm hiểu thêm"
+  "home_page": {
+    "greeting": "Xin chào, mình là Thành",
+    "description": "Hiện tại, mình đang là sinh viên năm cuối ngành Công nghệ thông tin tại Học viện Công nghệ Bưu chính Viễn thông. Mình đam mê với các sản phẩm / giải pháp DIY và IoT nói chung, được triển khai các dự án IoT từ phần cứng với phần mềm là một niềm vui đối với mình.",
+    "moreAboutMeButton": "Tìm hiểu thêm"
+  },
+
+  "about_page": {
+    "hero": {
+      "title": "Về mình"
+    },
+    "image": {
+      "caption": "Đây là mình, haha"
+    },
+    "bio": [
+      "Mình tên là Thành (tên đầy đủ là Ma Quyết Thành). Hiện tại, mình đang là sinh viên năm cuối ngành Công nghệ thông tin tại Học viện Công nghệ Bưu chính Viễn thông (PTIT).",
+      "Mình bắt đầu tìm hiểu về phần cứng và hệ thống nhúng từ năm 2020 (chỉ với các bộ kit Arduino và VEX IQ), sau đó mình lên đại học và có nhiều cơ hội hơn để làm việc với các dự án phần cứng và IoT (mặc dù mình học ngành CNTT nhưng mình lại có niềm đam mê khá lớn với phần cứng và IoT).",
+      "Đối với mình, IoT không chỉ là một lĩnh vực để học mà còn là một sân chơi: kết hợp phần cứng với phần mềm để dữ liệu chạy từ những MCU lên đến giao diện người dùng và thấy mọi thứ hoạt động trơn tru là cảm giác tuyệt vời nhất.",
+      "Mình cũng đam mê với các sản phẩm và giải pháp DIY. Mình thích xây dựng những thứ không chỉ liên quan đến phần cứng mà còn tích hợp AI, ứng dụng di động và giao diện web để làm cho chúng hữu ích hơn và thú vị khi sử dụng.",
+      "Trong ngắn hạn, mình hướng tới trở thành một Fullstack developer mảng Embedded & IoT. Về lâu dài, mình dự định chuyên sâu về AUTOSAR và phần mềm ô tô (hoặc thậm chí là robotics - tùy thuộc vào những cơ hội đến với mình)."
+    ],
+    "badges": [
+      "IoT & Phần cứng",
+      "AI & Phần mềm",
+      "Giáo dục STEM",
+      "Robotics",
+      "Ô tô"
+    ],
+    "journey": {
+      "title": "Hành trình",
+      "subtitle": "Những cột mốc học tập và những dự án mình đã đi qua.",
+      "legendEducation": "Học vấn",
+      "legendProject": "Kinh nghiệm làm việc",
+
+      "timeline": {
+        "see_more": "Xem thêm",
+        "education": {
+          "high_school": {
+            "period": "2019 - 2022",
+            "title": "💼 Trung học phổ thông",
+            "organization": "Trường PTDT Nội trú THPT tỉnh Tuyên Quang",
+            "description": "Thành viên câu lạc bộ STEM Robotics, bắt đầu học Arduino từ hè năm lớp 10 và sau đó là Robotics với VEX IQ, đây là bước khởi đầu cho niềm đam mê với phần cứng và IoT của mình."
+          },
+          "ptit": {
+            "period": "2022 - Hiện tại",
+            "title": "Chuyên ngành Công nghệ thông tin",
+            "organization": "Học viện Công nghệ Bưu chính Viễn thông (PTIT)",
+            "description": "Sinh viên năm cuối ngành Công nghệ thông tin, tập trung vào thiết kế các hệ thống thông tin và các hệ thống phân tán. Song song với đó là dành thời gian học thêm về điện tử và viễn thông"
+          }
+        },
+
+        "experience": {
+          "kidscode": {
+            "period": "2023 - 2024",
+            "title": "Giáo viên STEM kiêm phát triển website cho trung tâm",
+            "organization": "Công ty cổ phần giáo dục KidsCode",
+            "description": "Dạy lập trình và robotics cơ bản cho học sinh tại trung tâm, tham gia xây dựng giáo án và tổ chức các hoạt động ngoại khóa để thúc đẩy sự quan tâm đến STEM thông qua các dự án thực hành và bài học tương tác. Đồng thời, mình cũng tham gia phát triển và bảo trì website thương mại điện tử của trung tâm trên nền tảng Sapo sử dụng Liquid"
+          },
+          "partime_teacher": {
+            "period": "2023 - 2025",
+            "title": "Giáo viên dạy kèm lập trình",
+            "organization": "Tự do",
+            "description": "Dạy kèm lâp trình Arduino cơ bản (cho các cuộc thi) và huấn luyện viên Robotics (VEX IQ và VEX V5) cho một số bạn học sinh cấp 2 và cấp 3, giúp các bạn học sinh này đạt được những thành tích tốt trong các cuộc thi STEM."
+          },
+          "stemvn": {
+            "period": "2024 - 2025",
+            "title": "Lập trình viên",
+            "organization": "Công ty TNHH phát triển công nghệ STEMVN",
+            "description": "Phát triển và bảo trì các dự án phần mềm liên quan đến robot giáo dục STEM và thiết bị phòng LAB. Phát triển và bảo trì trang web thương mại điện tử của công ty trên nền tảng Sapo sử dụng Liquid. Phát triển các công cụ crawl dữ liệu và tự động hóa quy trình làm việc để cải thiện hiệu quả hoạt động của công ty."
+          },
+          "freelancer": {
+            "period": "2025 - nay",
+            "title": "Làm việc tự do",
+            "organization": "Tự do",
+            "description": "Mình đang làm việc tự do với tư cách là một lập trình viên phần mềm và kỹ sư IoT, tập trung vào các dự án liên quan đến phát triển phần mềm, tích hợp phần cứng và giải pháp IoT cùng với AI. Đồng thời mình cũng nhận làm các dịch vụ khác ngoài phát triển phần mềm như: thiết kế và in 3D, thiết kế và làm mạch PCB, khắc & cắt CNC, v.v... để hỗ trợ các dự án DIY và IoT của khách hàng. Trong thời gian này mình học thêm về các kiến thức khác như STM32 (low-level programming), các embedded toolchains (ARM GCC, GDB, OpenOCD, ESP-IDF), AUTOSAR, v.v... để chuẩn bị cho những cơ hội mới trong tương lai."
+          }
+        }
+      }
+    },
+    "cta": {
+      "title": "Muốn xem mình đang làm gì hoặc hợp tác cùng nhau?",
+      "cv": "Tải CV",
+      "contact": "Liên hệ với mình"
+    },
+    "seeMyProjects": "Xem các dự án của mình",
+
+    "techStack": {
+      "title": "Tech Stack",
+      "subtitle": "Các công nghệ mình đang làm việc",
+      "categories": {
+        "frontend": "Giao diện người dùng",
+        "backend": "Backend",
+        "database": "Database",
+        "devops": "Công cụ triển khai",
+        "tools": "Công cụ",
+        "mobile": "Ứng dụng di động",
+        "desktop": "Ứng dụng desktop",
+        "embedded": "Hệ thống nhúng",
+        "board": "Mạch điện / nhúng",
+        "protocol": "Các giao thức",
+        "computer_vision": "Thị giác máy tính",
+        "other": "Khác"
+      }
     }
+  }
 }

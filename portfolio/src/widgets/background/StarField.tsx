@@ -99,11 +99,11 @@ export default function StarField() {
     const mouse = { x: 0, y: 0 };
     const targetRotation = { x: 0, y: 0 };
 
-    const handleMouseMove = (e: MouseEvent) => {
-      mouse.x = (e.clientX / window.innerWidth) * 2 - 1;
-      mouse.y = (e.clientY / window.innerHeight) * 2 - 1;
-    };
-    window.addEventListener("mousemove", handleMouseMove);
+    // const handleMouseMove = (e: MouseEvent) => {
+    //   mouse.x = (e.clientX / window.innerWidth) * 2 - 1;
+    //   mouse.y = (e.clientY / window.innerHeight) * 2 - 1;
+    // };
+    // window.addEventListener("mousemove", handleMouseMove);
 
     const handleResize = () => {
       camera.aspect = window.innerWidth / window.innerHeight;
@@ -136,7 +136,7 @@ export default function StarField() {
 
     return () => {
       cancelAnimationFrame(frameId);
-      window.removeEventListener("mousemove", handleMouseMove);
+      // window.removeEventListener("mousemove", handleMouseMove);
       window.removeEventListener("resize", handleResize);
       layers.forEach((layer) => {
         layer.geometry.dispose();

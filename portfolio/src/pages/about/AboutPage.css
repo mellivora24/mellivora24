@@ -1,0 +1,206 @@
+.about-page {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: calc(var(--nav-height) + 3rem) 1.5rem 5rem;
+}
+
+.about-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+  animation: fade-up 0.6s ease both;
+}
+
+.eyebrow-tag {
+  font-size: 0.85rem;
+}
+
+.bio-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.bio-text .text-lead {
+  margin: 0;
+  max-width: none;
+  text-align: justify;
+}
+
+.info-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.profile-image {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--color-border);
+  box-shadow: var(--shadow-glow);
+  align-self: center;
+}
+
+.image-caption {
+  color: var(--color-text-muted);
+  text-align: center;
+  margin-top: 0.5rem;
+  align-self: center;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.journey-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.journey-subtitle {
+  margin: 0 0 1.5rem;
+  max-width: 560px;
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.legend-dot.dot-education {
+  background: var(--color-accent);
+  box-shadow: 0 0 6px var(--color-accent-glow);
+}
+
+.legend-dot.dot-project {
+  background: var(--color-primary);
+  box-shadow: 0 0 6px var(--color-primary-glow);
+}
+
+@keyframes ping {
+  from {
+    transform: scale(0.6);
+    opacity: 0.8;
+  }
+  to {
+    transform: scale(1.9);
+    opacity: 0;
+  }
+}
+
+.hobbies-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.hobbies-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.hobby-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 1.1rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  color: var(--color-text);
+  font-size: 0.95rem;
+  transition: transform var(--transition), border-color var(--transition);
+}
+
+.hobby-chip:hover {
+  transform: translateY(-2px);
+  border-color: var(--color-primary);
+}
+
+.hobby-icon {
+  font-size: 1.1rem;
+}
+
+.cta-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.quick-contact {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.contact-tag {
+  text-decoration: none;
+  transition: border-color var(--transition), color var(--transition), box-shadow var(--transition);
+}
+
+.contact-tag:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-glow);
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    gap: 4.5rem;
+    padding: calc(var(--nav-height) + 2rem) 1.25rem 4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cta-actions .btn,
+  .cta-actions button {
+    width: 100%;
+  }
+}
+
+.tech-stack-section {
+  display: flex;
+  flex-direction: column;
+  animation: fade-up 0.6s ease both;
+}
+
+.tech-subtitle {
+  margin: 0 0 1.5rem;
+  max-width: 560px;
+}
