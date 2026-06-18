@@ -6,34 +6,40 @@ import AboutPage from "@/pages/about/AboutPage";
 import ContactPage from "@/pages/contacts/ContactsPage";
 import ServicesPage from "@/pages/services/ServicesPage";
 
-export const router = createBrowserRouter([
+export const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <MainLayout />,
+      children: [
+        {
+          index: true,
+          element: <HomePage />,
+        },
+        {
+          path: "about",
+          element: <AboutPage />,
+        },
+        {
+          path: "projects",
+          element: <div>Projects Page</div>,
+        },
+        {
+          path: "services",
+          element: <ServicesPage />,
+        },
+        {
+          path: "contacts",
+          element: <ContactPage />,
+        },
+        {
+          path: "*",
+          element: <div>404 - Page Not Found</div>,
+        },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <MainLayout />,
-    children: [
-      {
-        index: true,
-        element: <HomePage />,
-      },
-      {
-        path: "about",
-        element: <AboutPage />,
-      },
-      {
-        path: "projects",
-        element: <div>Projects Page</div>,
-      },
-      {
-        path: "services",
-        element: <ServicesPage />,
-      },
-      {
-        path: "contacts",
-        element: <ContactPage />,
-      },
-    ],
-  },
-
-  // Not found route
-  
-]);
+    basename: "/mellivora24/",
+  }
+);
