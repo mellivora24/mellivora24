@@ -204,3 +204,14 @@
   margin: 0 0 1.5rem;
   max-width: 560px;
 }
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  animation: fade-up 0.6s ease both;
+}
+
+.skills-subtitle {
+  margin: 0 0 1.5rem;
+  max-width: 560px;
+}

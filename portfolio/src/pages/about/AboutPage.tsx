@@ -5,6 +5,7 @@ import { CustomButton } from "@shared/components/Button";
 import { timeline } from "@shared/constants/timeline";
 import TimelineNode from "./components/timeline/Timeline";
 import TechStack from "./components/tech_stack/TechStack";
+import Skill from "./components/skills/Skill";
 
 import profileImage from '@/assets/images/profile-images.jpg';
 
@@ -94,6 +95,12 @@ export default function AboutPage() {
         <p className="text-body tech-subtitle">{t("about_page.techStack.subtitle")}</p>
         <TechStack />
       </section>
+
+      <section className="skills-section">
+        <h2 className="heading-lg">{t("about_page.skills.title")}</h2>
+        <p className="text-body skills-subtitle">{t("about_page.skills.subtitle")}</p>
+        <Skill />
+      </section>
       
       <section className="cta-section">
         <h2 className="heading-lg">
@@ -103,6 +110,7 @@ export default function AboutPage() {
         <div className="cta-actions">
           <a
             className="btn btn-primary"
+            href="projects"
           >
             {t("about_page.seeMyProjects")}
           </a>

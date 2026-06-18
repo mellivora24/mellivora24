@@ -103,6 +103,47 @@
           "computer_vision": "Computer Vision",
           "other": "Other"
         }
+    },
+    "skills": {
+      "title": "What skills do I have?",
+      "subtitle": "Skills I have accumulated through my projects and work experience.",
+      "categories": {
+        "soft-skills": "Soft Skills",
+        "clean-code": "Clean Code",
+        "3d-design": "3D Design",
+        "pcb-design": "PCB Design",
+        "CAD-CAM": "CAD/CAM"
+      },
+      "items": {
+        "communication": {
+          "name": "Communication",
+          "description": "Thanks to my freelance work, I have developed strong communication skills, allowing me to convey ideas and information clearly. I am also a good listener, understanding the needs of others and providing appropriate solutions."
+        },
+        "problem-solving": {
+          "name": "Problem Solving",
+          "description": "This skill allows me to analyze problems, identify root causes, and develop effective solutions, especially when debugging software and hardware issues."
+        },
+        "adaptability": {
+          "name": "Adaptability",
+          "description": "I am highly adaptable and can quickly adjust to new situations, technologies, and environments. I am open to learning new skills and embracing change."
+        },
+        "cad-cam": {
+          "name": "CAD/CAM",
+          "description": "I have experience using CAD/CAM software and CNC machines to design and manufacture mechanical parts based on 3D models or even create PCBs. I can create 3D models, generate toolpaths, and optimize designs for manufacturing processes."
+        },
+        "3d-design": {
+          "name": "3D Design",
+          "description": "I can use 3D modeling software to create accurate and detailed designs based on existing technical drawings or design them from scratch according to requirements."
+        },
+        "pcb-design": {
+          "name": "PCB Design",
+          "description": "I have experience in designing printed circuit boards (PCBs) for various applications. I can create schematics, layout components, and ensure proper electrical performance and manufacturability."
+        },
+        "clean-code": {
+          "name": "Clean Code",
+          "description": "I follow best practices for writing clean, maintainable, and efficient code. I prioritize readability, modularity, and reusability in my code to ensure long-term maintainability."
+        }
       }
+    }
   }
 }

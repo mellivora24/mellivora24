@@ -92,12 +92,12 @@
     "seeMyProjects": "Xem các dự án của mình",
 
     "techStack": {
-      "title": "Tech Stack",
-      "subtitle": "Các công nghệ mình đang làm việc",
+      "title": "Những công nghệ mình thường dùng",
+      "subtitle": "Dưới đây là danh sách các công nghệ mà mình đã làm việc cùng, được phân loại theo các lĩnh vực khác nhau.",
       "categories": {
         "frontend": "Giao diện người dùng",
         "backend": "Backend",
-        "database": "Database",
+        "database": "Cơ sở dữ liệu",
         "devops": "Công cụ triển khai",
         "tools": "Công cụ",
         "mobile": "Ứng dụng di động",
@@ -107,6 +107,48 @@
         "protocol": "Các giao thức",
         "computer_vision": "Thị giác máy tính",
         "other": "Khác"
+      }
+    },
+
+    "skills": {
+      "title": "Mình có những kỹ năng gì?",
+      "subtitle": "Những kỹ năng mình đã tích lũy được qua các dự án và công việc của mình.",
+      "categories": {
+        "soft-skills": "Kỹ năng mềm",
+        "clean-code": "Viết code sạch",
+        "3d-design": "Thiết kế 3D",
+        "pcb-design": "Thiết kế PCB",
+        "CAD-CAM": "CAD/CAM"
+      },
+      "items": {
+        "communication": {
+          "name": "Giao tiếp",
+          "description": "Nhờ vào thời gian làm việc tự do, việc phải thường xuyên giao tiếp với khách hàng đã giúp mình có khả năng giao tiếp khá tốt, có thể truyền đạt ý tưởng và thông tin một cách rõ ràng (mình nghĩ vậy)."
+        },
+        "problem-solving": {
+          "name": "Giải quyết vấn đề",
+          "description": "Kỹ năng này giúp mình phân tích các vấn đề, xác định nguyên nhân gốc rễ và đưa ra các giải pháp hiệu quả đặc biệt trong việc debug các lỗi trong phần mềm và phần cứng."
+        },
+        "adaptability": {
+          "name": "Tính thích nghi",
+          "description": "Mình khá linh hoạt và có thể nhanh chóng thích nghi với các tình huống, công nghệ và môi trường mới. Mình cởi mở để học hỏi các kỹ năng mới và đón nhận sự thay đổi."
+        },
+        "cad-cam": {
+          "name": "CAD/CAM",
+          "description": "Mình có kinh nghiệm sử dụng các phần mềm và các loại máy CNC, máy in 3D để thiết kế và sản xuất các bộ phận cơ khí theo bản vẽ 3D hoặc thậm chí là làm PCB"
+        },
+        "3d-design": {
+          "name": "Thiết kế 3D",
+          "description": "Mình có thể sử dụng các phần mềm mô hình hóa 3D để tạo ra các thiết kế chính xác và chi tiết theo bản vẽ kỹ thuật có sẵn hoặc tự thiết kế theo yêu cầu. Mình cũng sở hữu máy in 3D và máy CNC để có thể sản xuất các bộ phận cơ khí hoặc các sản phẩm DIY theo thiết kế của mình."
+        },
+        "pcb-design": {
+          "name": "Thiết kế PCB",
+          "description": "Mình có kinh nghiệm trong việc thiết kế bảng mạch in (PCB) cho các nhu cầu khác nhau. Mình có thể tạo ra sơ đồ, bố trí linh kiện và đảm bảo hiệu suất điện đúng đắn cũng như tính khả thi trong sản xuất."
+        },
+        "clean-code": {
+          "name": "Viết code sạch",
+          "description": "Mình tuân theo các best practices để viết code sạch, dễ bảo trì và hiệu quả. Mình ưu tiên tính đọc được, tính mô-đun và tính tái sử dụng trong code của mình để đảm bảo tính duy trì lâu dài."
+        }
       }
     }
   }
