@@ -1,0 +1,44 @@
+name: Auto Commit
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-commit
+  cancel-in-progress: false
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate report.txt
+        run: |
+          {
+            echo "Report generated at: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            echo "Repository: ${{ github.repository }}"
+            echo "Branch: ${{ github.ref_name }}"
+            echo "Latest commit: $(git log -1 --pretty=format:'%H - %s (%an)')"
+            echo "Total commits: $(git rev-list --count HEAD)"
+          } > report.txt
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add report.txt
+          if git diff --staged --quiet; then
+            echo "Không có thay đổi nào trong report.txt, bỏ qua commit."
+          else
+            git commit -m "chore: auto update report.txt [skip ci]"
+            git push
+          fi
