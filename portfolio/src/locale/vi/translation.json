@@ -177,6 +177,125 @@
           "Điều chỉnh thời gian đèn theo tình trạng giao thông"
         ],
         "architecture": "YOLO cho nhận diện phương tiện, Raspberry Pi để xử lý dữ liệu và điều khiển đèn, kết nối với hệ thống mạng để truyền dữ liệu."
+      },
+      "stemvn_bluecontrol": {
+        "title": "STEMVN BlueControl",
+        "description": "Ứng dụng di động điều khiển robot giáo dục STEMVN qua Bluetooth, cho phép học sinh lập trình và điều khiển robot một cách dễ dàng.",
+        "features": [
+          "Điều khiển STEMVN robot qua Bluetooth"
+        ],
+        "architecture": "Ứng dụng di động kết nối với robot qua Bluetooth, sử dụng giao diện lập trình kéo-thả để tạo ra các lệnh điều khiển."
+      },
+      "land_slide_detection": {
+        "title": "Hệ thống cảnh báo sạt lở đất",
+        "description": "Hệ thống cảnh báo sạt lở đất sử dụng các cảm biến để phát hiện nguy cơ sạt lở và gửi cảnh báo qua mạng LoRa tới trạm trung tâm, sau đó gửi lên server bằng giao thức MQTT.",
+        "features": [
+          "Phát hiện nguy cơ sạt lở dựa trên độ ẩm và lượng mưa cùng với hướng nghiêng của trụ quan trắc",
+          "Gửi cảnh báo qua mạng LoRa tới trạm trung tâm",
+          "Trạm trung tâm gửi dữ liệu lên server bằng giao thức MQTT"
+        ],
+        "architecture": "Các cảm biến đo độ ẩm, lượng mưa và hướng nghiêng của trụ quan trắc gửi dữ liệu qua mạng LoRa tới trạm trung tâm, trạm trung tâm xử lý dữ liệu và gửi cảnh báo lên server bằng giao thức MQTT."
+      },
+      "job_fit": {
+        "title": "JobFit",
+        "description": "Ứng dụng web giúp người dùng so sánh kỹ năng và CV của họ với JD của các công việc để đánh giá mức độ phù hợp với CV của họ.",
+        "features": [
+          "So sánh kỹ năng và CV của người dùng với JD của các công việc",
+          "Đánh giá mức độ phù hợp của người dùng với các công việc dựa trên kỹ năng và sở thích của họ",
+          "Gợi ý các công việc phù hợp với người dùng dựa trên kỹ năng và sở thích của họ"
+        ],
+        "architecture": "Sử dụng embedding model để chuyển đổi văn bản thành vector, sau đó sử dụng cosine similarity để so sánh các vector và đánh giá mức độ phù hợp của người dùng với các công việc."
+      },
+      "products_crawl_tool": {
+        "title": "Công cụ crawl dữ liệu sản phẩm",
+        "description": "Công cụ crawl dữ liệu sản phẩm từ các trang web thương mại điện tử sau đó chuyển định dạng thành excel hoặc CSV để dễ dàng tải lê Sapo hoặc Shopify.",
+        "features": [
+          "Crawl dữ liệu sản phẩm từ các trang web thương mại điện tử",
+          "Cấu hình động tuỳ theo từng trang web",
+          "Chuyển đổi dữ liệu thành định dạng excel hoặc CSV để dễ dàng tải lên Sapo hoặc Shopify"
+        ],
+        "architecture": "Sử dụng Python và các thư viện như Playwright để crawl dữ liệu từ các trang web thương mại điện tử, sau đó xử lý dữ liệu và xuất ra định dạng excel hoặc CSV."
+      },
+      "flexiable_smarthome": {
+        "title": "Hệ thống nhà thông minh",
+        "description": "Hệ thống nhà thông minh sử dụng ESP32 và các cảm biến để điều khiển các thiết bị trong nhà thông qua ứng dụng di động.",
+        "features": [
+          "Các thiết bị có thể được thêm / sửa / xóa một cách linh hoạt thông qua ứng dụng di động",
+          "Điều khiển các thiết bị trong nhà thông qua ứng dụng di động",
+          "Cơ chế xác thực đảm bảo lệnh đã được thực thi"
+        ],
+        "architecture": "ESP32 đóng vai trò là gateway internet và HMI nó nói chuyện với Arduino UNO qua UART để điều khiển các thiết bị trong nhà. Truyền thông sử dụng MQTT và WebSocket."
+      },
+      "smart_agriculture": {
+        "title": "Hệ thống nông nghiệp thông minh",
+        "description": "Hệ thống nông nghiệp thông minh sử dụng LoRa để truyền dữ liệu giữa các nút cảm biến với cơ chế xác thực gói tin.",
+        "features": [
+          "Các nút cảm biến đo độ ẩm, nhiệt độ và ánh sáng",
+          "Truyền dữ liệu giữa các nút cảm biến và gateway sử dụng LoRa",
+          "Cơ chế xác thực gói tin đảm bảo dữ liệu được truyền đi một cách an toàn",
+          "Gửi dữ liệu lên server để lưu trữ và phân tích bằng Grafana",
+          "Ứng dụng web cho phép user quản lý các nút cảm biến và xem dữ liệu theo thời gian thực"
+        ],
+        "architecture": "Các nút cảm biến sử dụng LoRa để truyền dữ liệu đến gateway, gateway xử lý dữ liệu và gửi lên server bằng MQTT. Server lưu trữ dữ liệu trong InfluxDB và cung cấp API cho ứng dụng web để quản lý và hiển thị dữ liệu."
+      },
+      "agriculture_ecommerce": {
+        "title": "Sàn thương mại điện tử nông nghiệp",
+        "description": "Sàn thương mại điện tử nông nghiệp giúp các nhà cung cấp nông sản có thể bán sản phẩm của họ trực tuyến và người dùng có thể mua các sản phẩm nông nghiệp chất lượng cao từ các nhà cung cấp đáng tin cậy.",
+        "features": [
+          "Các nhà cung cấp nông sản có thể đăng ký và bán sản phẩm của họ trực tuyến",
+          "Người dùng có thể tìm kiếm và mua các sản phẩm nông nghiệp chất lượng cao từ các nhà cung cấp đáng tin cậy",
+          "Hệ thống thanh toán và vận chuyển được tích hợp để đảm bảo giao dịch diễn ra một cách thuận tiện và an toàn",
+          "Admin là người quản lý sàn thương mại điện tử, có thể quản lý các nhà cung cấp, sản phẩm và đơn hàng"
+        ],
+        "architecture": ""
+      }
+    }
+  },
+
+  "contact_page": {
+    "hero": {
+      "title": "Liên hệ với mình",
+      "subtitle": "Bạn có dự án muốn hợp tác, câu hỏi muốn hỏi, hay chỉ đơn giản là muốn chào hỏi? Cứ nhắn cho mình nhé."
+    },
+    "info": {
+      "title": "Thông tin liên hệ",
+      "description": "...",
+      "email_label": "Email",
+      "socials_label": "Mạng xã hội",
+      "socials": [
+        {
+          "label": "LinkedIn",
+          "href": "https://linkedin.com/in/mellivora24",
+          "icon": "<svg width='18' height='18' viewBox='0 0 24 24' fill='currentColor'><path d='M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z'/><rect x='2' y='9' width='4' height='12'/><circle cx='4' cy='4' r='2'/></svg>"
+        },
+        {
+          "label": "Facebook",
+          "href": "https://facebook.com/mellivora24",
+          "icon": "<svg width='18' height='18' viewBox='0 0 24 24' fill='currentColor'><path d='M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z'/></svg>"
+        }
+      ]
+    },
+    "form": {
+      "name": "Họ và tên",
+      "name_placeholder": "Nguyễn Văn A",
+      "email": "Email",
+      "email_placeholder": "example@email.com",
+      "subject": "Tiêu đề",
+      "subject_placeholder": "Bạn muốn nói về điều gì?",
+      "message": "Nội dung",
+      "message_placeholder": "Nhắn gì đó cho mình nhé...",
+      "submit": "Gửi tin nhắn",
+      "errors": {
+        "name": "Vui lòng nhập họ và tên.",
+        "email_required": "Vui lòng nhập email.",
+        "email_invalid": "Email không hợp lệ.",
+        "message": "Vui lòng nhập nội dung tin nhắn.",
+        "submit": "Gửi thất bại, vui lòng thử lại sau."
+      },
+      "success": {
+        "title": "Đã gửi thành công!",
+        "description": "Cảm ơn bạn đã liên hệ. Mình sẽ phản hồi sớm nhất có thể.",
+        "reset": "Gửi tin nhắn khác"
       }
     }
   }

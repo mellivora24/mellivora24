@@ -165,23 +165,131 @@
     "items": {
       "smart_traffic_light": {
         "title": "Smart Traffic Light",
-        "description": "A smart traffic light system that uses YOLO and Raspberry Pi to detect vehicles and adjust the light timing based on real-time traffic conditions.",
+        "description": "Smart traffic light system using YOLO and Raspberry Pi to detect vehicles and adjust light timing based on real-time traffic conditions.",
         "features": [
-          "Real-time vehicle detection using YOLO",
-          "Adjusting light timing based on traffic conditions"
+          "Real-time vehicle detection with YOLO",
+          "Adjust light timing based on traffic conditions"
         ],
-        "architecture": "YOLO for vehicle detection, Raspberry Pi for data processing and Arduino for light control then present camera frame by PyQt5, run locally"
+        "architecture": "YOLO for vehicle detection, Raspberry Pi for data processing and light control, connected to the network system for data transmission."
+      },
+      "stemvn_bluecontrol": {
+        "title": "STEMVN BlueControl",
+        "description": "Mobile application to control STEMVN educational robots via Bluetooth, allowing students to program and control robots easily.",
+        "features": [
+          "Control STEMVN robot via Bluetooth"
+        ],
+        "architecture": "Mobile application connected to the robot via Bluetooth, using a drag-and-drop programming interface to create control commands."
+      },
+      "land_slide_detection": {
+        "title": "Landslide Detection System",
+        "description": "Landslide detection system using sensors to detect landslide risks and send alerts via LoRa network to the central station, then upload to the server using MQTT protocol.",
+        "features": [
+          "Detect landslide risks based on humidity, rainfall, and the tilt direction of the monitoring pillar",
+          "Send alerts via LoRa network to the central station",
+          "Central station sends data to the server using MQTT protocol"
+        ],
+        "architecture": "Sensors measuring humidity, rainfall, and tilt direction of the monitoring pillar send data via LoRa network to the central station, which processes the data and sends alerts to the server using MQTT protocol."
+      },
+      "job_fit": {
+        "title": "JobFit",
+        "description": "Web application that helps users compare their skills and CV with job JDs to evaluate their fit with their CV.",
+        "features": [
+          "Compare user skills and CV with job JDs",
+          "Evaluate user fit with jobs based on their skills and preferences",
+          "Suggest suitable jobs for users based on their skills and preferences"
+        ],
+        "architecture": "Uses an embedding model to convert text into vectors, then uses cosine similarity to compare vectors and evaluate user fit with jobs."
+      },
+      "products_crawl_tool": {
+        "title": "Product Data Crawling Tool",
+        "description": "Tool to crawl product data from e-commerce websites and convert the format into Excel or CSV for easy uploading to Sapo or Shopify.",
+        "features": [
+          "Crawl product data from e-commerce websites",
+          "Dynamic configuration depending on each website",
+          "Convert data into Excel or CSV format for easy uploading to Sapo or Shopify"
+        ],
+        "architecture": "Uses Python and libraries like Playwright to crawl data from e-commerce websites, then processes the data and exports it to Excel or CSV format."
+      },
+      "flexiable_smarthome": {
+        "title": "Smart Home System",
+        "description": "Smart home system using ESP32 and sensors to control indoor devices via a mobile application.",
+        "features": [
+          "Devices can be added / edited / deleted flexibly via the mobile application",
+          "Control indoor devices via the mobile application",
+          "Authentication mechanism ensuring commands have been executed"
+        ],
+        "architecture": "ESP32 acts as the internet gateway and HMI, communicating with Arduino UNO via UART to control indoor devices. Communication uses MQTT and WebSocket."
+      },
+      "smart_agriculture": {
+        "title": "Smart Agriculture System",
+        "description": "Smart agriculture system using LoRa to transmit data between sensor nodes with a packet authentication mechanism.",
+        "features": [
+          "Sensor nodes measuring humidity, temperature, and light",
+          "Transmit data between sensor nodes and gateway using LoRa",
+          "Packet authentication mechanism ensuring data is transmitted securely",
+          "Upload data to the server for storage and analysis using Grafana",
+          "Web application allowing users to manage sensor nodes and view real-time data"
+        ],
+        "architecture": "Sensor nodes use LoRa to transmit data to the gateway, the gateway processes the data and sends it to the server via MQTT. The server stores data in InfluxDB and provides APIs for the web application to manage and display data."
       },
       "agriculture_ecommerce": {
-        "title": "Agriculture E-commerce",
-        "description": "An e-commerce website for agricultural products built on B2B models allowing farmers to sell their products directly to consumers.",
+        "title": "Agricultural E-commerce Platform",
+        "description": "Agricultural e-commerce platform that helps agricultural suppliers sell their products online and users buy high-quality agricultural products from trusted suppliers.",
         "features": [
-          "User account management",
-          "Product listing and categorization",
-          "Shopping cart and checkout process",
-          "Admin dashboard for managing sellers, users, products, and withdrawals process"
+          "Agricultural suppliers can register and sell their products online",
+          "Users can search for and buy high-quality agricultural products from trusted suppliers",
+          "Integrated payment and shipping systems to ensure smooth and secure transactions",
+          "Admin manages the e-commerce platform, including suppliers, products, and orders"
         ],
-        "architecture": "Architecture"
+        "architecture": ""
+      }
+    }
+  },
+
+  "contact_page": {
+    "hero": {
+      "title": "Get in touch",
+      "subtitle": "Have a project in mind, a question to ask, or just want to say hi? Feel free to reach out."
+    },
+    "info": {
+      "title": "Contact information",
+      "description": "I usually respond within 24 hours. For professional inquiries, email or LinkedIn is preferred.",
+      "email_label": "Email",
+      "socials_label": "Social media",
+      "socials": [
+        {
+          "label": "LinkedIn",
+          "href": "https://linkedin.com/in/mellivora24",
+          "icon": "<svg width='18' height='18' viewBox='0 0 24 24' fill='currentColor' xmlns='http://www.w3.org/2000/svg'><path d='M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z'/><rect x='2' y='9' width='4' height='12'/><circle cx='4' cy='4' r='2'/></svg>"
+        },
+        {
+          "label": "Facebook",
+          "href": "https://facebook.com/mellivora24",
+          "icon": "<svg width='18' height='18' viewBox='0 0 24 24' fill='currentColor' xmlns='http://www.w3.org/2000/svg'><path d='M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z'/></svg>"
+        }
+      ]
+    },
+    "form": {
+      "name": "Full name",
+      "name_placeholder": "John Doe",
+      "email": "Email",
+      "email_placeholder": "example@email.com",
+      "subject": "Subject",
+      "subject_placeholder": "What do you want to talk about?",
+      "message": "Message",
+      "message_placeholder": "Write something to me...",
+      "submit": "Send message",
+      "errors": {
+        "name": "Please enter your name.",
+        "email_required": "Please enter your email.",
+        "email_invalid": "Invalid email address.",
+        "message": "Please enter your message.",
+        "submit": "Failed to send, please try again later."
+      },
+      "success": {
+        "title": "Message sent!",
+        "description": "Thanks for reaching out. I'll get back to you as soon as possible.",
+        "reset": "Send another message"
       }
     }
   }
