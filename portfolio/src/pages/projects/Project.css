@@ -1,0 +1,106 @@
+.projects-page {
+  min-height: 100vh;
+  background: var(--color-bg);
+}
+
+.projects-hero {
+  padding: calc(var(--nav-height) + 72px) 24px 64px;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.projects-hero-subtitle {
+  max-width: 560px;
+}
+
+.projects-content {
+  padding: 0 24px 80px;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.projects-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.projects-filter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 7px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: color var(--transition), border-color var(--transition), background var(--transition);
+}
+
+.projects-filter-btn:hover {
+  color: var(--color-text);
+  border-color: rgba(255, 215, 0, 0.3);
+  background: var(--color-surface);
+}
+
+.projects-filter-btn.active {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  background: rgba(255, 215, 0, 0.06);
+}
+
+.projects-filter-count {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  opacity: 0.7;
+  background: rgba(255, 255, 255, 0.07);
+  padding: 1px 6px;
+  border-radius: 999px;
+}
+
+.projects-filter-btn.active .projects-filter-count {
+  background: rgba(255, 215, 0, 0.12);
+  opacity: 1;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.projects-empty {
+  padding: 80px 0;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .projects-hero {
+    padding: calc(var(--nav-height) + 48px) 20px 48px;
+  }
+
+  .projects-content {
+    padding: 0 20px 64px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}

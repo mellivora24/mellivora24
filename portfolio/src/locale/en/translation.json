@@ -145,5 +145,44 @@
         }
       }
     }
+  },
+
+  "projects_page": {
+    "hero": {
+      "title": "Projects",
+      "subtitle": "The projects I have worked on, including personal projects, academic projects, and professional work."
+    },
+    "filter_label": "Filter by tag",
+    "filter_all": "All",
+    "seeMore": "See more",
+    "features": "Features",
+    "architecture": "Architecture",
+    "empty": "No projects found.",
+    "status": {
+      "completed": "Completed",
+      "in_progress": "In Progress"
+    },
+    "items": {
+      "smart_traffic_light": {
+        "title": "Smart Traffic Light",
+        "description": "A smart traffic light system that uses YOLO and Raspberry Pi to detect vehicles and adjust the light timing based on real-time traffic conditions.",
+        "features": [
+          "Real-time vehicle detection using YOLO",
+          "Adjusting light timing based on traffic conditions"
+        ],
+        "architecture": "YOLO for vehicle detection, Raspberry Pi for data processing and Arduino for light control then present camera frame by PyQt5, run locally"
+      },
+      "agriculture_ecommerce": {
+        "title": "Agriculture E-commerce",
+        "description": "An e-commerce website for agricultural products built on B2B models allowing farmers to sell their products directly to consumers.",
+        "features": [
+          "User account management",
+          "Product listing and categorization",
+          "Shopping cart and checkout process",
+          "Admin dashboard for managing sellers, users, products, and withdrawals process"
+        ],
+        "architecture": "Architecture"
+      }
+    }
   }
 }

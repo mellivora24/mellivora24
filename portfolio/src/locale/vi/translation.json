@@ -151,5 +151,33 @@
         }
       }
     }
+  },
+
+  "projects_page": {
+    "hero": {
+      "title": "Các dự án",
+      "subtitle": "Những dự án mà mình đã thực hiện, bao gồm các dự án cá nhân, dự án học tập và dự án làm việc."
+    },
+    "filter_label": "Lọc theo tag",
+    "filter_all": "Tất cả",
+    "seeMore": "Xem thêm",
+    "features": "Tính năng",
+    "architecture": "Kiến trúc",
+    "empty": "Không có dự án nào phù hợp.",
+    "status": {
+      "completed": "Hoàn thành",
+      "in_progress": "Đang làm"
+    },
+    "items": {
+      "smart_traffic_light": {
+        "title": "Đèn giao thông thông minh",
+        "description": "Hệ thống đèn giao thông thông minh sử dụng YOLO và Raspberry Pi để nhận diện phương tiện và điều chỉnh thời gian đèn theo tình trạng giao thông thực tế.",
+        "features": [
+          "Nhận diện phương tiện real-time với YOLO",
+          "Điều chỉnh thời gian đèn theo tình trạng giao thông"
+        ],
+        "architecture": "YOLO cho nhận diện phương tiện, Raspberry Pi để xử lý dữ liệu và điều khiển đèn, kết nối với hệ thống mạng để truyền dữ liệu."
+      }
+    }
   }
 }
