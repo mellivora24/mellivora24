@@ -5,23 +5,27 @@
 ![](https://img.shields.io/badge/dynamic/json?logo=github&label=GitHub%20Forks&query=%24.forks&url=https://api.github-star-counter.workers.dev/user/mellivora24)
 ![](https://komarev.com/ghpvc/?username=thanhquyet24ptit)
 
-## Marketing chính mình
-Hãy gọi mình là Thành - IoT (Lửng IoT cũng được =]]), bời vì:
-Mình là một Lập trình viên với chuyên môn về phát triển các ứng dụng IoT. Với 3 năm kinh nghiệm làm freelancer, mình có khả năng xây dựng các hệ thống IoT hoàn chỉnh, từ xây dựng PCB & lập trình firmware cho tới phát triển ứng dụng IoT đa nền tảng.
+## "Hey guys, welcome back to my channel!"
 
-## Vậy mình có thể giúp bạn những gì?
-1. Mình nhận thiết kế và gia công PCB (1-2 lớp)
-2. Mình nhận làm đồ án môn học IoT (hoặc nhúng). Ngoài ra các đồ án liên quan tới Computer Vision, APP, WEB mình cũng sẽ nhận.
+I’m Thành—an ordinary person on Earth, just someone with a bit of an obsession for "making" things.
 
-## Nếu bạn là phụ huynh?
-Mình cung cấp dịch vụ dạy học STEM, tư vấn và hỗ trợ thiết kế sản phẩm KHKT
-
-## Đánh giá và phản hồi từ khách hàng của mình
+As one of the millions of makers worldwide, I enjoy:
+- **Designing 3D models** of mechanical parts and printing them into real objects
+- **3D sculpting** and printing like an artist (an amateur, yet serious one)
+- **DIY smart devices**: conceptualizing ideas and bringing them to life
+- **Coding anything and everything**—from firmware and mobile apps to web applications
 
 <p align="center">
   <img src="https://github.com/mellivora24/mellivora24/blob/main/images/octocat.png" width="400" height="400"> <img src="https://github.githubassets.com/images/mona-loading-dark.gif" width="100" height="100">
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
 </p>
-<p align="center">"Mọi vật trên Trái Đất có thể kết nối với nhau và trở nên thông minh hơn dưới bàn tay con người 👐!"</p>
+<p align="center">"Everything on Earth can be interconnected and become smarter through human hands 👐!"</p>
 
 <p align="right"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mellivora24&hide_progress=true&theme=dark&layout=compact"> </p>
+
+## Social
+
+- LinkedIn: [in/mellivora24](https://www.linkedin.com/in/mellivora24/)
+- Website: [mellivora24.github.io/mellivora24](https://mellivora24.github.io/mellivora24/)
+
+If you have a crazy idea you want to turn into reality, or simply want to chat about circuits and 3D printing, feel free to drop me a message!
